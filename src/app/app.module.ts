@@ -27,7 +27,8 @@ import { AlertaComponent } from './shared/components/alerta/alerta.component';
     HttpClientModule,
     LayoutModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   entryComponents: [AlertaComponent],
   providers: [{ provide: MAT_DATE_LOCALE, useValue: 'pt' }],

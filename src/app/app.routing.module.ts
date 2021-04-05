@@ -28,7 +28,8 @@ const routes: Routes = [
           },
           {
             path: ':id',
-            component: CadastroFilmesComponent
+            component: CadastroFilmesComponent,
+            pathMatch: 'full'
           }
         ]
       },
